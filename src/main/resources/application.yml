@@ -1,0 +1,34 @@
+server:
+  port: 8202
+spring:
+  application:
+    name: bullla-cadunico-soap-api
+  profiles:
+    active: dsv
+logging:
+  level:
+    root: info
+    web: info
+feign:
+  logging:
+    level:FULL
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8701/eureka
+management:
+  info:
+    env:
+      enabled: true
+  endpoints:
+    web:
+      exposure:
+        include: info
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
+  api-docs:
+    path: /cadunico-soap-api/v1/api-docs
+client:
+  IB_ServicesLT:
+    uri: https://autbankdev.bullla.local/ABIBWS/services/IB_ServicesLT

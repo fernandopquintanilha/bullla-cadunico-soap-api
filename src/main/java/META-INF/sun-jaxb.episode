@@ -1,0 +1,3287 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<bindings xmlns="http://java.sun.com/xml/ns/jaxb" if-exists="true" version="2.1">
+      
+    <!--
+
+Este arquivo foi gerado pela Eclipse Implementation of JAXB, v2.3.7 
+Consulte https://eclipse-ee4j.github.io/jaxb-ri 
+Todas as modificações neste arquivo serão perdidas após a recompilação do esquema de origem. 
+Gerado em: 2024.01.29 às 12:05:00 PM BRT 
+
+  -->
+      
+    <bindings xmlns:tns="http://literal.autbank.com.br" if-exists="true" scd="x-schema::tns">
+            
+        <schemaBindings map="false">
+                  
+            <package name="com.bullla.integration.soap.ibServicesLt.client.gen"/>
+                
+        </schemaBindings>
+            
+        <bindings if-exists="true" scd="tns:incluirCliente">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.IncluirCliente"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:incluirClienteResponse">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.IncluirClienteResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TEException">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.TEException"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:incluirCliente2">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.IncluirCliente2"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:incluirCliente2Response">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.IncluirCliente2Response"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:incluirCliente3">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.IncluirCliente3"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:incluirCliente3Response">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.IncluirCliente3Response"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:incluirCliente4">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.IncluirCliente4"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:incluirCliente4Response">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.IncluirCliente4Response"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:incluirCliente5">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.IncluirCliente5"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:incluirCliente5Response">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.IncluirCliente5Response"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:incluirProponenteWorkflow">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.IncluirProponenteWorkflow"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:incluirProponenteWorkflowResponse">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.IncluirProponenteWorkflowResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:incluirCliente6">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.IncluirCliente6"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:incluirCliente6Response">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.IncluirCliente6Response"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:getBancoAgencia">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.GetBancoAgencia"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:getBancoAgenciaResponse">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.GetBancoAgenciaResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TOBancoAgencia">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.TOBancoAgencia"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:getVersaoServices">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.GetVersaoServices"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:getVersaoServicesResponse">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.GetVersaoServicesResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarBancoAgencia">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarBancoAgencia"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarBancoAgenciaResponse">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarBancoAgenciaResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TOListaBancoAgencia">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.TOListaBancoAgencia"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarCliente">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarCliente"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarClienteResponse">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarClienteResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TOListaClienteIntegracaoFAT">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.TOListaClienteIntegracaoFAT"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarClientePessoa">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarClientePessoa"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarClientePessoaResponse">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarClientePessoaResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarClientePessoa2">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarClientePessoa2"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarClientePessoa2Response">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarClientePessoa2Response"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:alterarBancoAgencia">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.AlterarBancoAgencia"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:alterarBancoAgenciaResponse">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.AlterarBancoAgenciaResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:alterarGerente">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.AlterarGerente"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:alterarGerenteResponse">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.AlterarGerenteResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:incluirBancoAgencia">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.IncluirBancoAgencia"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:incluirBancoAgenciaResponse">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.IncluirBancoAgenciaResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:incluirGerente">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.IncluirGerente"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:incluirGerenteResponse">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.IncluirGerenteResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarBanco">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarBanco"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarBancoResponse">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarBancoResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TOListaBanco">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.TOListaBanco"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarGerente">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarGerente"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarGerenteResponse">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarGerenteResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TOListaGerente">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.TOListaGerente"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:incluirAlterarCCusto">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.IncluirAlterarCCusto"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:incluirAlterarCCustoResponse">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.IncluirAlterarCCustoResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:mudarGerente">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.MudarGerente"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:mudarGerenteResponse">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.MudarGerenteResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:incluirContaExterna">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.IncluirContaExterna"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:incluirContaExternaResponse">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.IncluirContaExternaResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:alterarContaExterna">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.AlterarContaExterna"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:alterarContaExternaResponse">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.AlterarContaExternaResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:getContaExterna">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.GetContaExterna"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:getContaExternaResponse">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.GetContaExternaResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TOContaExterna">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.TOContaExterna"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarContaExterna">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarContaExterna"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarContaExternaResponse">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarContaExternaResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TOListaContaExterna">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.TOListaContaExterna"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:consultaTarifaCobradaCliente">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ConsultaTarifaCobradaCliente"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:consultaTarifaCobradaClienteResponse">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ConsultaTarifaCobradaClienteResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:alterarEnderecoCorrespondencia">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.AlterarEnderecoCorrespondencia"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:alterarEnderecoCorrespondenciaResponse">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.AlterarEnderecoCorrespondenciaResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:alterarTelefoneEndereco">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.AlterarTelefoneEndereco"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:alterarTelefoneEnderecoResponse">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.AlterarTelefoneEnderecoResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:alterarEmailPessoa">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.AlterarEmailPessoa"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:alterarEmailPessoaResponse">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.AlterarEmailPessoaResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:incluirAlterarDocumentoEntregue">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.IncluirAlterarDocumentoEntregue"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:incluirAlterarDocumentoEntregueResponse">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.IncluirAlterarDocumentoEntregueResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:incluirAlterarDocumentoEntregue2">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.IncluirAlterarDocumentoEntregue2"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:incluirAlterarDocumentoEntregue2Response">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.IncluirAlterarDocumentoEntregue2Response"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:alterarContingenciaCIP">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.AlterarContingenciaCIP"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:alterarContingenciaCIPResponse">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.AlterarContingenciaCIPResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarEstado">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarEstado"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarEstadoResponse">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarEstadoResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TOListaEstado">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.TOListaEstado"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarMunicipioPorUf">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarMunicipioPorUf"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarMunicipioPorUfResponse">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarMunicipioPorUfResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TOListaMunicipio">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.TOListaMunicipio"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarCategoria">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarCategoria"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarCategoriaResponse">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarCategoriaResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TOListaCategoria">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.TOListaCategoria"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarAtividade">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarAtividade"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarAtividadeResponse">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarAtividadeResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TOListaAtividade">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.TOListaAtividade"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarColigada">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarColigada"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarColigadaResponse">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarColigadaResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TOListaColigada">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.TOListaColigada"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarCCusto">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarCCusto"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarCCustoResponse">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarCCustoResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TOListaCCusto">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.TOListaCCusto"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarPais">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarPais"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarPaisResponse">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarPaisResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TOListaPais">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.TOListaPais"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarProfissao">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarProfissao"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarProfissaoResponse">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarProfissaoResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TOListaProfissao">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.TOListaProfissao"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarFuncao">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarFuncao"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarFuncaoResponse">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarFuncaoResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TOListaFuncao">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.TOListaFuncao"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarNaturezaOcupacao">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarNaturezaOcupacao"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarNaturezaOcupacaoResponse">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarNaturezaOcupacaoResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TOListaNaturezaOcupacao">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.TOListaNaturezaOcupacao"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarCategoriaResp">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarCategoriaResp"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarCategoriaRespResponse">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarCategoriaRespResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TOListaCategoriaResp">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.TOListaCategoriaResp"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarSetor">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarSetor"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarSetorResponse">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarSetorResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TOListaSetor">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.TOListaSetor"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarTipoInstituicao">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarTipoInstituicao"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarTipoInstituicaoResponse">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarTipoInstituicaoResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TOListaTipoInstituicao">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.TOListaTipoInstituicao"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarClassificacaoFirma">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarClassificacaoFirma"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarClassificacaoFirmaResponse">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarClassificacaoFirmaResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TOListaClassificacaoFirma">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.TOListaClassificacaoFirma"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarTipoIdentificacao">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarTipoIdentificacao"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarTipoIdentificacaoResponse">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarTipoIdentificacaoResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TOListaTipoIdentificacao">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.TOListaTipoIdentificacao"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarAto">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarAto"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarAtoResponse">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarAtoResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TOListaAto">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.TOListaAto"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarAgencia">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarAgencia"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarAgenciaResponse">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarAgenciaResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TOListaAgencia">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.TOListaAgencia"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarTipoDocumento">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarTipoDocumento"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarTipoDocumentoResponse">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarTipoDocumentoResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TOListaTipoDocumento">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.TOListaTipoDocumento"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarIndexador">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarIndexador"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarIndexadorResponse">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarIndexadorResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TOListaIndexador">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.TOListaIndexador"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarParticipacao">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarParticipacao"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarParticipacaoResponse">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarParticipacaoResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TOListaParticipacao">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.TOListaParticipacao"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:incluirAlterarParticipacao">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.IncluirAlterarParticipacao"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:incluirAlterarParticipacaoResponse">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.IncluirAlterarParticipacaoResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarDocumento">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarDocumento"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarDocumentoResponse">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarDocumentoResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TOListaDocumento">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.TOListaDocumento"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:incluirAlterarDocumento">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.IncluirAlterarDocumento"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:incluirAlterarDocumentoResponse">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.IncluirAlterarDocumentoResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarRepresentante">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarRepresentante"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarRepresentanteResponse">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarRepresentanteResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TOListaRepresentante">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.TOListaRepresentante"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:incluirAlterarRepresentante">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.IncluirAlterarRepresentante"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:incluirAlterarRepresentanteResponse">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.IncluirAlterarRepresentanteResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarDocumentoResponsavelAto">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarDocumentoResponsavelAto"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarDocumentoResponsavelAtoResponse">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarDocumentoResponsavelAtoResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TOListaDocumentoResponsavelAto">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.TOListaDocumentoResponsavelAto"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:incluirAlterarDocumentoResponsavelAto">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.IncluirAlterarDocumentoResponsavelAto"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:incluirAlterarDocumentoResponsavelAtoResponse">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.IncluirAlterarDocumentoResponsavelAtoResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarComposPoderes">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarComposPoderes"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarComposPoderesResponse">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarComposPoderesResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TOListaComposPoderes">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.TOListaComposPoderes"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:incluirAlterarComposPoderes">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.IncluirAlterarComposPoderes"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:incluirAlterarComposPoderesResponse">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.IncluirAlterarComposPoderesResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarDominio">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarDominio"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarDominioResponse">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarDominioResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TOListaDominio">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.TOListaDominio"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarRestricaoPessoa">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarRestricaoPessoa"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarRestricaoPessoaResponse">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarRestricaoPessoaResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TOListaRestricaoPessoa">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.TOListaRestricaoPessoa"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarRestricao">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarRestricao"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarRestricaoResponse">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarRestricaoResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TOListaRestricao">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.TOListaRestricao"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:incluirAlterarRestricaoPessoa">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.IncluirAlterarRestricaoPessoa"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:incluirAlterarRestricaoPessoaResponse">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.IncluirAlterarRestricaoPessoaResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarRiscoPessoa">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarRiscoPessoa"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarRiscoPessoaResponse">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarRiscoPessoaResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TOListaRiscoPessoa">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.TOListaRiscoPessoa"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarTipoRisco">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarTipoRisco"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarTipoRiscoResponse">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarTipoRiscoResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TOListaTipoRisco">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.TOListaTipoRisco"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarNivelRisco">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarNivelRisco"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarNivelRiscoResponse">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarNivelRiscoResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TOListaNivelRisco">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.TOListaNivelRisco"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:incluirAlterarRiscoPessoa">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.IncluirAlterarRiscoPessoa"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:incluirAlterarRiscoPessoaResponse">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.IncluirAlterarRiscoPessoaResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarPontoAtendimento">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarPontoAtendimento"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarPontoAtendimentoResponse">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarPontoAtendimentoResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TOListaPontoAtendimento">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.TOListaPontoAtendimento"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarIncorporacao">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarIncorporacao"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarIncorporacaoResponse">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarIncorporacaoResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TOListaIncorporacao">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.TOListaIncorporacao"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarIndice">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarIndice"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarIndiceResponse">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarIndiceResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TOListaIndice">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.TOListaIndice"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:incluirAlterarIncorporacao">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.IncluirAlterarIncorporacao"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:incluirAlterarIncorporacaoResponse">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.IncluirAlterarIncorporacaoResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:getDocumentoEntregue">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.GetDocumentoEntregue"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:getDocumentoEntregueResponse">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.GetDocumentoEntregueResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TODocumentoEntregueFAT">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.TODocumentoEntregueFAT"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarMunicipio">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarMunicipio"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarMunicipioResponse">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarMunicipioResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarOrigemNegocio">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarOrigemNegocio"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarOrigemNegocioResponse">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarOrigemNegocioResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TOListaOrigemNegocio">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.TOListaOrigemNegocio"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarTipoDocumentoEntregue">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarTipoDocumentoEntregue"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarTipoDocumentoEntregueResponse">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarTipoDocumentoEntregueResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TOListaTipoDocEntregue">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.TOListaTipoDocEntregue"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarCapitalSocial">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarCapitalSocial"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarCapitalSocialResponse">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarCapitalSocialResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TOListaDominioCadastro">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.TOListaDominioCadastro"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarNaturezaEmpresa">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarNaturezaEmpresa"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarNaturezaEmpresaResponse">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarNaturezaEmpresaResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:incluirCliente7">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.IncluirCliente7"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:incluirCliente7Response">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.IncluirCliente7Response"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarPerfilPessoa">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarPerfilPessoa"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarPerfilPessoaResponse">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarPerfilPessoaResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TOListaPerfilPessoa">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.TOListaPerfilPessoa"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:incluirAlterarPerfilPessoa">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.IncluirAlterarPerfilPessoa"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:incluirAlterarPerfilPessoaResponse">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.IncluirAlterarPerfilPessoaResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarDadoProfissional">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarDadoProfissional"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarDadoProfissionalResponse">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarDadoProfissionalResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TOListaDadoProfissional">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.TOListaDadoProfissional"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:incluirAlterarDadoProfissional">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.IncluirAlterarDadoProfissional"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:incluirAlterarDadoProfissionalResponse">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.IncluirAlterarDadoProfissionalResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarContato">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarContato"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarContatoResponse">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarContatoResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TOListaContato">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.TOListaContato"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:incluirAlterarContato">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.IncluirAlterarContato"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:incluirAlterarContatoResponse">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.IncluirAlterarContatoResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarTipoPropositoCliente">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarTipoPropositoCliente"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarTipoPropositoClienteResponse">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarTipoPropositoClienteResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TOListaTipoPropositoCliente">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.TOListaTipoPropositoCliente"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:incluirAlterarTipoPropositoCliente">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.IncluirAlterarTipoPropositoCliente"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:incluirAlterarTipoPropositoClienteResponse">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.IncluirAlterarTipoPropositoClienteResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarResidenciaFiscal">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarResidenciaFiscal"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarResidenciaFiscalResponse">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarResidenciaFiscalResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TOListaResidenciaFiscal">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.TOListaResidenciaFiscal"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:incluirAlterarResidenciaFiscal">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.IncluirAlterarResidenciaFiscal"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:incluirAlterarResidenciaFiscalResponse">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.IncluirAlterarResidenciaFiscalResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarPatrimonioPessoa">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarPatrimonioPessoa"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarPatrimonioPessoaResponse">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarPatrimonioPessoaResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TOListaPatrimonioPessoa">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.TOListaPatrimonioPessoa"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:incluirAlterarPatrimonioPessoa">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.IncluirAlterarPatrimonioPessoa"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:incluirAlterarPatrimonioPessoaResponse">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.IncluirAlterarPatrimonioPessoaResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarPatrimonioPessoaOrigem">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarPatrimonioPessoaOrigem"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarPatrimonioPessoaOrigemResponse">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarPatrimonioPessoaOrigemResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TOListaPatrimonioPessoaOrigem">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.TOListaPatrimonioPessoaOrigem"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:incluirAlterarPatrimonioPessoaOrigem">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.IncluirAlterarPatrimonioPessoaOrigem"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:incluirAlterarPatrimonioPessoaOrigemResponse">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.IncluirAlterarPatrimonioPessoaOrigemResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarTipoPerfil">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarTipoPerfil"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarTipoPerfilResponse">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarTipoPerfilResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TOListaTipoPerfil">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.TOListaTipoPerfil"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarTipoProposito">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarTipoProposito"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarTipoPropositoResponse">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarTipoPropositoResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarFaixaPatrimonio">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarFaixaPatrimonio"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarFaixaPatrimonioResponse">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarFaixaPatrimonioResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarOrigemPatrimonio">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarOrigemPatrimonio"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarOrigemPatrimonioResponse">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarOrigemPatrimonioResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarClassificacaoGerencial">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarClassificacaoGerencial"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarClassificacaoGerencialResponse">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarClassificacaoGerencialResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarClassificacaoAdministrativa">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarClassificacaoAdministrativa"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarClassificacaoAdministrativaResponse">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarClassificacaoAdministrativaResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarPrincipalCliente">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarPrincipalCliente"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarPrincipalClienteResponse">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarPrincipalClienteResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TOListaPrincipalCliente">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.TOListaPrincipalCliente"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:incluirAlterarPrincipalCliente">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.IncluirAlterarPrincipalCliente"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:incluirAlterarPrincipalClienteResponse">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.IncluirAlterarPrincipalClienteResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarCidadania">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarCidadania"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarCidadaniaResponse">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarCidadaniaResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TOListaCidadania">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.TOListaCidadania"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:incluirAlterarCidadania">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.IncluirAlterarCidadania"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:incluirAlterarCidadaniaResponse">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.IncluirAlterarCidadaniaResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarReferencia">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarReferencia"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarReferenciaResponse">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarReferenciaResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TOListaReferencia">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.TOListaReferencia"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:incluirAlterarReferencia">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.IncluirAlterarReferencia"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:incluirAlterarReferenciaResponse">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.IncluirAlterarReferenciaResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarRendaPessoa">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarRendaPessoa"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarRendaPessoaResponse">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarRendaPessoaResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TOListaRendaPessoa">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.TOListaRendaPessoa"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:incluirAlterarRendaPessoa">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.IncluirAlterarRendaPessoa"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:incluirAlterarRendaPessoaResponse">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.IncluirAlterarRendaPessoaResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarTipoRenda">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarTipoRenda"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarTipoRendaResponse">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarTipoRendaResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TOListaTipoRenda">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.TOListaTipoRenda"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarFaixaRenda">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarFaixaRenda"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarFaixaRendaResponse">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarFaixaRendaResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:incluirAlterarContato2">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.IncluirAlterarContato2"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:incluirAlterarContato2Response">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.IncluirAlterarContato2Response"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarPropriedade">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarPropriedade"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarPropriedadeResponse">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarPropriedadeResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TOPropriedadeFAT">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.TOPropriedadeFAT"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:incluirAlterarParticipacao2">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.IncluirAlterarParticipacao2"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:incluirAlterarParticipacao2Response">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.IncluirAlterarParticipacao2Response"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:incluirAlterarTipoAdministradorParticipacao">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.IncluirAlterarTipoAdministradorParticipacao"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:incluirAlterarTipoAdministradorParticipacaoResponse">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.IncluirAlterarTipoAdministradorParticipacaoResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarTipoAdministradorParticipacao">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarTipoAdministradorParticipacao"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarTipoAdministradorParticipacaoResponse">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarTipoAdministradorParticipacaoResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TOListaTipoAdministradorParticipacao">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.TOListaTipoAdministradorParticipacao"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarTipoAdministrador">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarTipoAdministrador"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarTipoAdministradorResponse">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarTipoAdministradorResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarPessoaPorTelefoneOuEmail">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarPessoaPorTelefoneOuEmail"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarPessoaPorTelefoneOuEmailResponse">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarPessoaPorTelefoneOuEmailResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TOListaRetorno">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.TOListaRetorno"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:consultaDiaUtil">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ConsultaDiaUtil"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:consultaDiaUtilResponse">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ConsultaDiaUtilResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarTipoLogradouro">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarTipoLogradouro"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarTipoLogradouroResponse">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarTipoLogradouroResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarLocalidade">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarLocalidade"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarLocalidadeResponse">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarLocalidadeResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TOListaLocalidade">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.TOListaLocalidade"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarLogradouroPorCep">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarLogradouroPorCep"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarLogradouroPorCepResponse">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarLogradouroPorCepResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TOListaLogradouro">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.TOListaLogradouro"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarLogradouroPorFiltro">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarLogradouroPorFiltro"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarLogradouroPorFiltroResponse">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarLogradouroPorFiltroResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarQuestionarioSuitability">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarQuestionarioSuitability"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarQuestionarioSuitabilityResponse">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarQuestionarioSuitabilityResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TOListaQuestionarioSuitability">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.TOListaQuestionarioSuitability"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarPerfilPessoaSuitability">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarPerfilPessoaSuitability"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarPerfilPessoaSuitabilityResponse">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarPerfilPessoaSuitabilityResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TOPessoaSuitability">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.TOPessoaSuitability"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:calcularPerfilSuitability">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.CalcularPerfilSuitability"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:calcularPerfilSuitabilityResponse">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.CalcularPerfilSuitabilityResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TOPerfilSuitability">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.TOPerfilSuitability"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarTipoPerfilSuitability">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarTipoPerfilSuitability"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarTipoPerfilSuitabilityResponse">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarTipoPerfilSuitabilityResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TOListaPerfilSuitability">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.TOListaPerfilSuitability"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:incluirQuestionarioSuitability">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.IncluirQuestionarioSuitability"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:incluirQuestionarioSuitabilityResponse">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.IncluirQuestionarioSuitabilityResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarBem">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarBem"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarBemResponse">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarBemResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TOListaBem">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.TOListaBem"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:incluirAlterarBem">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.IncluirAlterarBem"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:incluirAlterarBemResponse">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.IncluirAlterarBemResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarClienteProduto">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarClienteProduto"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarClienteProdutoResponse">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarClienteProdutoResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TOListaClienteProduto">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.TOListaClienteProduto"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:incluirAlterarClienteProduto">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.IncluirAlterarClienteProduto"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:incluirAlterarClienteProdutoResponse">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.IncluirAlterarClienteProdutoResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarClienteTarifa">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarClienteTarifa"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarClienteTarifaResponse">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarClienteTarifaResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TOListaClienteTarifa">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.TOListaClienteTarifa"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:incluirAlterarClienteTarifa">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.IncluirAlterarClienteTarifa"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:incluirAlterarClienteTarifaResponse">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.IncluirAlterarClienteTarifaResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarProduto">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarProduto"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarProdutoResponse">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarProdutoResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TOListaProduto">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.TOListaProduto"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarTarifa">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarTarifa"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarTarifaResponse">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarTarifaResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TOListaTarifa">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.TOListaTarifa"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarStatusFatcaCRS">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarStatusFatcaCRS"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarStatusFatcaCRSResponse">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarStatusFatcaCRSResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TOListaStatusFatca">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.TOListaStatusFatca"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarDominioDocumentoEntregue">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarDominioDocumentoEntregue"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarDominioDocumentoEntregueResponse">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarDominioDocumentoEntregueResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarFormaConstituicao">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarFormaConstituicao"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarFormaConstituicaoResponse">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarFormaConstituicaoResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarFeriado">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarFeriado"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarFeriadoResponse">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarFeriadoResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TOListaFeriado">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.TOListaFeriado"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarPraca">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarPraca"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarPracaResponse">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarPracaResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TOListaPraca">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.TOListaPraca"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:incluirAlterarIndice">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.IncluirAlterarIndice"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:incluirAlterarIndiceResponse">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.IncluirAlterarIndiceResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarMunicipio2">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarMunicipio2"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarMunicipio2Response">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarMunicipio2Response"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TOMunicipio">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.TOMunicipio"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:incluirAlterarIdentificacaoPessoa">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.IncluirAlterarIdentificacaoPessoa"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:incluirAlterarIdentificacaoPessoaResponse">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.IncluirAlterarIdentificacaoPessoaResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarIdentificacaoPessoa">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarIdentificacaoPessoa"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarIdentificacaoPessoaResponse">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarIdentificacaoPessoaResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TOListaIdentificacaoPessoa">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.TOListaIdentificacaoPessoa"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarTipoRestricaoDado">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarTipoRestricaoDado"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarTipoRestricaoDadoResponse">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarTipoRestricaoDadoResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TOListaTipoRestricaoDado">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.TOListaTipoRestricaoDado"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarRestricaoDado">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarRestricaoDado"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarRestricaoDadoResponse">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarRestricaoDadoResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TOListaRestricaoDado">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.TOListaRestricaoDado"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:incluirAlterarRestricaoDado">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.IncluirAlterarRestricaoDado"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:incluirAlterarRestricaoDadoResponse">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.IncluirAlterarRestricaoDadoResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarGrauInstrucao">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarGrauInstrucao"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarGrauInstrucaoResponse">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarGrauInstrucaoResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarGrupoRisco">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarGrupoRisco"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarGrupoRiscoResponse">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarGrupoRiscoResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TOListaGrupoRisco">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.TOListaGrupoRisco"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarGrupoRiscoPessoa">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarGrupoRiscoPessoa"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarGrupoRiscoPessoaResponse">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarGrupoRiscoPessoaResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TOListaGrupoRiscoPessoa">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.TOListaGrupoRiscoPessoa"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarSetorCnae">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarSetorCnae"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarSetorCnaeResponse">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarSetorCnaeResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:incluirAlterarGrupoRiscoPessoa">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.IncluirAlterarGrupoRiscoPessoa"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:incluirAlterarGrupoRiscoPessoaResponse">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.IncluirAlterarGrupoRiscoPessoaResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarFaturamento">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarFaturamento"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:listarFaturamentoResponse">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ListarFaturamentoResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TOListaFaturamento">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.TOListaFaturamento"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:incluirAlterarFaturamento">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.IncluirAlterarFaturamento"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:incluirAlterarFaturamentoResponse">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.IncluirAlterarFaturamentoResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:incluirAlterarGrupoRisco">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.IncluirAlterarGrupoRisco"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:incluirAlterarGrupoRiscoResponse">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.IncluirAlterarGrupoRiscoResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:incluirAlterarPerfilPessoaSuitability">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.IncluirAlterarPerfilPessoaSuitability"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:incluirAlterarPerfilPessoaSuitabilityResponse">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.IncluirAlterarPerfilPessoaSuitabilityResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ArrayOfTOBancoAgencia">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ArrayOfTOBancoAgencia"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TOClienteApresDesFAT">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.TOClienteApresDesFAT"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ArrayOfTODocumentoEntregueFAT">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ArrayOfTODocumentoEntregueFAT"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TOEnderecoFAT">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.TOEnderecoFAT"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ArrayOfTOEnderecoFAT">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ArrayOfTOEnderecoFAT"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TOIdentificacaoPessoaFAT">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.TOIdentificacaoPessoaFAT"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ArrayOfTOIdentificacaoPessoaFAT">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ArrayOfTOIdentificacaoPessoaFAT"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TONomeCompletoFAT">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.TONomeCompletoFAT"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TOPessoaFAT">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.TOPessoaFAT"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TOClienteIntegracaoFAT">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.TOClienteIntegracaoFAT"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ArrayOfTOClienteIntegracaoFAT">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ArrayOfTOClienteIntegracaoFAT"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TOBanco">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.TOBanco"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ArrayOfTOBanco">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ArrayOfTOBanco"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TOGerente">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.TOGerente"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ArrayOfTOGerente">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ArrayOfTOGerente"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ArrayOfTOContaExterna">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ArrayOfTOContaExterna"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TOEstado">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.TOEstado"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ArrayOfTOEstado">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ArrayOfTOEstado"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ArrayOfTOMunicipio">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ArrayOfTOMunicipio"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TOCategoria">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.TOCategoria"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ArrayOfTOCategoria">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ArrayOfTOCategoria"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TOAtividade">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.TOAtividade"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ArrayOfTOAtividade">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ArrayOfTOAtividade"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TOColigada">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.TOColigada"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ArrayOfTOColigada">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ArrayOfTOColigada"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TOCCusto">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.TOCCusto"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ArrayOfTOCCusto">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ArrayOfTOCCusto"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TOPais">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.TOPais"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ArrayOfTOPais">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ArrayOfTOPais"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TOProfissao">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.TOProfissao"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ArrayOfTOProfissao">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ArrayOfTOProfissao"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TOFuncao">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.TOFuncao"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ArrayOfTOFuncao">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ArrayOfTOFuncao"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TONaturezaOcupacao">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.TONaturezaOcupacao"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ArrayOfTONaturezaOcupacao">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ArrayOfTONaturezaOcupacao"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TOCategoriaResp">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.TOCategoriaResp"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ArrayOfTOCategoriaResp">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ArrayOfTOCategoriaResp"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TOSetor">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.TOSetor"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ArrayOfTOSetor">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ArrayOfTOSetor"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TOTipoInstituicao">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.TOTipoInstituicao"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ArrayOfTOTipoInstituicao">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ArrayOfTOTipoInstituicao"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TOClassificacaoFirma">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.TOClassificacaoFirma"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ArrayOfTOClassificacaoFirma">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ArrayOfTOClassificacaoFirma"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TOTipoIdentificacao">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.TOTipoIdentificacao"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ArrayOfTOTipoIdentificacao">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ArrayOfTOTipoIdentificacao"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TOAto">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.TOAto"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ArrayOfTOAto">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ArrayOfTOAto"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TOAgencia">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.TOAgencia"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ArrayOfTOAgencia">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ArrayOfTOAgencia"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TOTipoDocumento">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.TOTipoDocumento"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ArrayOfTOTipoDocumento">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ArrayOfTOTipoDocumento"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TOIndexador">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.TOIndexador"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ArrayOfTOIndexador">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ArrayOfTOIndexador"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TOParticipacao">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.TOParticipacao"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ArrayOfTOParticipacao">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ArrayOfTOParticipacao"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TODocumento">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.TODocumento"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ArrayOfTODocumento">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ArrayOfTODocumento"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TORepresentante">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.TORepresentante"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ArrayOfTORepresentante">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ArrayOfTORepresentante"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TODocumentoResponsavelAto">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.TODocumentoResponsavelAto"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ArrayOfTODocumentoResponsavelAto">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ArrayOfTODocumentoResponsavelAto"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TOComposPoderes">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.TOComposPoderes"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ArrayOfTOComposPoderes">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ArrayOfTOComposPoderes"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TODominioFAT">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.TODominioFAT"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ArrayOfTODominioFAT">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ArrayOfTODominioFAT"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TORestricaoPessoa">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.TORestricaoPessoa"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ArrayOfTORestricaoPessoa">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ArrayOfTORestricaoPessoa"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TORestricao">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.TORestricao"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ArrayOfTORestricao">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ArrayOfTORestricao"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TORiscoPessoa">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.TORiscoPessoa"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ArrayOfTORiscoPessoa">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ArrayOfTORiscoPessoa"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TOTipoRisco">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.TOTipoRisco"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ArrayOfTOTipoRisco">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ArrayOfTOTipoRisco"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TONivelRisco">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.TONivelRisco"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ArrayOfTONivelRisco">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ArrayOfTONivelRisco"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TOPontoAtendimento">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.TOPontoAtendimento"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ArrayOfTOPontoAtendimento">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ArrayOfTOPontoAtendimento"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TOIncorporacao">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.TOIncorporacao"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ArrayOfTOIncorporacao">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ArrayOfTOIncorporacao"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TOIndice">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.TOIndice"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ArrayOfTOIndice">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ArrayOfTOIndice"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TOOrigemNegocio">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.TOOrigemNegocio"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ArrayOfTOOrigemNegocio">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ArrayOfTOOrigemNegocio"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TOTipoDocEntregue">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.TOTipoDocEntregue"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ArrayOfTOTipoDocEntregue">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ArrayOfTOTipoDocEntregue"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TODominioCadastro">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.TODominioCadastro"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ArrayOfTODominioCadastro">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ArrayOfTODominioCadastro"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TOPerfilPessoa">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.TOPerfilPessoa"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ArrayOfTOPerfilPessoa">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ArrayOfTOPerfilPessoa"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TODadoProfissional">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.TODadoProfissional"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ArrayOfTODadoProfissional">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ArrayOfTODadoProfissional"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TOContato">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.TOContato"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ArrayOfTOContato">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ArrayOfTOContato"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TOTipoPropositoCliente">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.TOTipoPropositoCliente"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ArrayOfTOTipoPropositoCliente">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ArrayOfTOTipoPropositoCliente"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TOResidenciaFiscal">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.TOResidenciaFiscal"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ArrayOfTOResidenciaFiscal">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ArrayOfTOResidenciaFiscal"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TOPatrimonioPessoa">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.TOPatrimonioPessoa"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ArrayOfTOPatrimonioPessoa">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ArrayOfTOPatrimonioPessoa"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TOPatrimonioPessoaOrigem">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.TOPatrimonioPessoaOrigem"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ArrayOfTOPatrimonioPessoaOrigem">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ArrayOfTOPatrimonioPessoaOrigem"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TOTipoPerfil">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.TOTipoPerfil"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ArrayOfTOTipoPerfil">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ArrayOfTOTipoPerfil"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TOPrincipalCliente">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.TOPrincipalCliente"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ArrayOfTOPrincipalCliente">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ArrayOfTOPrincipalCliente"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TOCidadania">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.TOCidadania"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ArrayOfTOCidadania">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ArrayOfTOCidadania"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TOReferencia">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.TOReferencia"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ArrayOfTOReferencia">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ArrayOfTOReferencia"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TORendaPessoa">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.TORendaPessoa"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ArrayOfTORendaPessoa">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ArrayOfTORendaPessoa"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TOTipoRenda">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.TOTipoRenda"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ArrayOfTOTipoRenda">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ArrayOfTOTipoRenda"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TOTipoAdministradorParticipacao">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.TOTipoAdministradorParticipacao"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ArrayOfTOTipoAdministradorParticipacao">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ArrayOfTOTipoAdministradorParticipacao"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TORetorno">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.TORetorno"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ArrayOfTORetorno">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ArrayOfTORetorno"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TOLocalidade">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.TOLocalidade"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ArrayOfTOLocalidade">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ArrayOfTOLocalidade"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TOLogradouro">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.TOLogradouro"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ArrayOfTOLogradouro">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ArrayOfTOLogradouro"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TOQuestionarioSuitability">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.TOQuestionarioSuitability"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ArrayOfTOQuestionarioSuitability">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ArrayOfTOQuestionarioSuitability"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ArrayOfTOPerfilSuitability">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ArrayOfTOPerfilSuitability"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TOBem">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.TOBem"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ArrayOfTOBem">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ArrayOfTOBem"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TOClienteProduto">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.TOClienteProduto"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ArrayOfTOClienteProduto">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ArrayOfTOClienteProduto"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TOClienteTarifa">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.TOClienteTarifa"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ArrayOfTOClienteTarifa">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ArrayOfTOClienteTarifa"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TOProduto">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.TOProduto"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ArrayOfTOProduto">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ArrayOfTOProduto"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TOTarifa">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.TOTarifa"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ArrayOfTOTarifa">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ArrayOfTOTarifa"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TOStatusFatca">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.TOStatusFatca"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ArrayOfTOStatusFatca">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ArrayOfTOStatusFatca"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TOFeriado">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.TOFeriado"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ArrayOfTOFeriado">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ArrayOfTOFeriado"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TOPraca">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.TOPraca"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ArrayOfTOPraca">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ArrayOfTOPraca"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TOTipoRestricaoDado">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.TOTipoRestricaoDado"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ArrayOfTOTipoRestricaoDado">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ArrayOfTOTipoRestricaoDado"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TORestricaoDado">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.TORestricaoDado"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ArrayOfTORestricaoDado">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ArrayOfTORestricaoDado"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TOGrupoRisco">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.TOGrupoRisco"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ArrayOfTOGrupoRisco">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ArrayOfTOGrupoRisco"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TOGrupoRiscoPessoa">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.TOGrupoRiscoPessoa"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ArrayOfTOGrupoRiscoPessoa">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ArrayOfTOGrupoRiscoPessoa"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TOFaturamento">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.TOFaturamento"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ArrayOfTOFaturamento">
+                  
+            <class ref="com.bullla.integration.soap.ibServicesLt.client.gen.ArrayOfTOFaturamento"/>
+                
+        </bindings>
+          
+    </bindings>
+    
+</bindings>
